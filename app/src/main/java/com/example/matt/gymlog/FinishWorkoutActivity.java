@@ -60,6 +60,7 @@ public class FinishWorkoutActivity extends ActionBarActivity {
 
         LinearLayout.LayoutParams buttonParams = new LinearLayout.LayoutParams(
                 0, ViewGroup.LayoutParams.WRAP_CONTENT, 1.0f);
+        buttonParams.setMargins(4,4,4,4);
         historyButton.setLayoutParams(buttonParams);
         homeButton.setLayoutParams(buttonParams);
 
